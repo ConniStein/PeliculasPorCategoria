@@ -1,0 +1,61 @@
+*{
+	font-family: 'Varela Round', sans-serif;
+	color: #60b288;
+}
+
+.page-title{
+	background-color: #046e91;
+}
+
+section{
+	background-color: #d0e7dc;
+	padding: 0px 30px 30px 30px;
+}
+
+.titulo{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.categorias{
+	display: inline;
+}
+
+.genres{
+	display: inline;
+	right: -350px;
+	top: -40px;
+}
+
+h3{
+	padding-left: 20px;
+	font-size: 28px;
+}
+
+.escoger-categoria{
+	padding: 5px 55px;
+	background-color: #046e91;
+	color: #8dc6a9;
+	font-weight: bold;
+}
+
+.pelicula{
+	height: 280px;
+	width: 180px;
+	margin:5px;
+}
+
+.next-movie-row{
+	margin-top: 20px;
+}
+
+.video{
+	padding:20px;
+}
+
+.actores{
+	height: 50%;
+	width: 50%;
+	margin-left: 95px;
+	margin-top: 20px;
+}
