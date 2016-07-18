@@ -1,14 +1,14 @@
 *{
 	font-family: 'Varela Round', sans-serif;
-	color: #60b288;
+	color: #F3A712;
 }
 
 .page-title{
-	background-color: #046e91;
+	background-color: #690500;
 }
 
 section{
-	background-color: #d0e7dc;
+	background-color:  #fff2a5;
 	padding: 0px 30px 30px 30px;
 }
 
@@ -17,45 +17,50 @@ section{
 	padding-bottom: 10px;
 }
 
-.categorias{
-	display: inline;
-}
-
-.genres{
-	display: inline;
-	right: -350px;
-	top: -40px;
-}
-
 h3{
-	padding-left: 20px;
+	padding: 20px;
 	font-size: 28px;
+	display: inline;
+	margin-top: 30px;
+}
+
+.categorias{
+	margin:20px;
 }
 
 .escoger-categoria{
 	padding: 5px 55px;
-	background-color: #046e91;
-	color: #8dc6a9;
+	background-color: #690500;
+	color: #F3A712;
 	font-weight: bold;
+	display: inline;
+	margin-left: 20px;
 }
 
 .pelicula{
 	height: 280px;
 	width: 180px;
-	margin:5px;
+	margin:10px 5px;
 }
 
-.next-movie-row{
-	margin-top: 20px;
+.estilo-pelicula{
+	display: inline-block;
 }
 
 .video{
-	padding:20px;
+	padding:30px;
+	height: 80%;
+	width: 80%;
+	margin-left: 100px;
+}
+
+.movie-title{
+	margin-top: 40px;
 }
 
 .actores{
 	height: 50%;
 	width: 50%;
-	margin-left: 95px;
+	margin-left: 70px;
 	margin-top: 20px;
 }

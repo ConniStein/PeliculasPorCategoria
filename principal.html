@@ -22,84 +22,79 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="categorias">
-					<h3>Escoge una categoría</h3>
-					<div class="dropdown genres">
-					  <button class="btn btn-default dropdown-toggle escoger-categoria" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-					    Todas
-					    <span class="caret"></span>
-					  </button>
-					  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-					    <li><a href="#">Action</a></li>
-					    <li><a href="#">Another action</a></li>
-					    <li><a href="#">Something else here</a></li>
-					    <li role="separator" class="divider"></li>
-					    <li><a href="#">Separated link</a></li>
-					  </ul>
-					</div>
+					<h3><strong>Escoge una categoría</strong></h3>
+					<select class="escoger-categoria" id="seleccionar">
+					  <option value="todas" onclick="todas()">Todas</option>
+					  <option value="accion" onclick="accion()">Acción</option>
+					  <option value="comedia" onclick="comedia()">Comedia</option>
+					  <option value="crimen" onclick="crimen()">Crimen</option>
+					  <option value="familiar" onclick="familiar()">Familiar</option>
+					  <option value="terror" onclick="terror()">Terror</option>
+					</select>
 				</div>	
 				<div class="row">
-					<div class="col-md-2">
-						<a href="pelicula.html">
-						<img src="img/movie1.jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula.html">
-						<img src="img/movie1.jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula.html">
-						<img src="img/movie1.jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula.html">
-						<img src="img/movie1.jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula.html">
-						<img src="img/movie1.jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula.html">
-						<img src="img/movie1.jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-				</div>	
-				<div class="row">
-					<div class="col-md-2">
-						<a href="pelicula.html">
-						<img src="img/movie1.jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula.html">
-						<img src="img/movie1.jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula.html">
-						<img src="img/movie1.jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula.html">
-						<img src="img/movie1.jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula.html">
-						<img src="img/movie1.jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
-					<div class="col-md-2">
-						<a href="pelicula.html">
-						<img src="img/movie1.jpg" alt="movie1" class="pelicula">
-						</a>
-					</div>
+					<ul>
+						<li class="estilo-pelicula">
+							<a href="pelicula.html">
+							<img src="img/accion1.jpg" alt="movie1" class="pelicula todas accion">
+							</a>
+						</li>
+						<li class="estilo-pelicula">
+							<a href="pelicula.html">
+							<img src="img/comedia1.jpg" alt="movie1" class="pelicula todas comedia">
+							</a>
+						</li>
+						<li class="estilo-pelicula">
+							<a href="pelicula.html">
+							<img src="img/accion2.jpg" alt="movie1" class="pelicula todas accion">
+							</a>
+						</li>
+						<li class="estilo-pelicula">
+							<a href="pelicula.html">
+							<img src="img/crimen1.jpg" alt="movie1" class="pelicula todas crimen">
+							</a>
+						</li>
+						<li class="estilo-pelicula">
+							<a href="pelicula.html">
+							<img src="img/comedia2.jpg" alt="movie1" class="pelicula todas comedia">
+							</a>
+						</li>
+						<li class="estilo-pelicula">
+							<a href="pelicula.html">
+							<img src="img/familiar1.jpg" alt="movie1" class="pelicula todas familiar">
+							</a>
+						</li>
+						<li class="estilo-pelicula">
+							<a href="pelicula.html">
+							<img src="img/crimen2.jpg" alt="movie1" class="pelicula todas crimen">
+							</a>
+						</li>
+						<li class="estilo-pelicula">
+							<a href="pelicula.html">
+							<img src="img/terror2.jpg" alt="movie1" class="pelicula todas terror">
+							</a>
+						</li>
+						<li class="estilo-pelicula">
+							<a href="pelicula.html">
+							<img src="img/terror1.jpg" alt="movie1" class="pelicula todas terror">
+							</a>
+						</li>
+						<li class="estilo-pelicula">
+							<a href="pelicula.html">
+							<img src="img/familiar2.jpg" alt="movie1" class="pelicula todas familiar">
+							</a>
+						</li>
+						<li class="estilo-pelicula">
+							<a href="pelicula.html">
+							<img src="img/accion1.jpg" alt="movie1" class="pelicula todas accion">
+							</a>
+						</li>
+						<li class="estilo-pelicula">
+							<a href="pelicula.html">
+							<img src="img/comedia1.jpg" alt="movie1" class="pelicula todas comedia">
+							</a>
+						</li>
+					</ul>
 				</div>					
 			</div>
 				
@@ -107,7 +102,10 @@
 	</section>
 
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
+
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 	<script type="text/javascript" src="js/main.js"></script>	
 </body>
 </html>
